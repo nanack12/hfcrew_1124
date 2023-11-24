@@ -1,12 +1,5 @@
-import pandas as pd 
-import json 
-import requests 
-import numpy as np
 import streamlit as st
-from PIL import Image
-from tkinter.tix import COLUMN
-from pyparsing import empty
-import folium 
+
 
 def set_custom_css():
     st.set_page_config(page_title="강서구 교통환경 시각화", page_icon="🚌", layout="wide")
@@ -76,10 +69,6 @@ def col2_about():
 
 set_custom_css()
 
-
-main_header()
-
-st.divider()
 
 col1, col2 , col3= st.columns([1,0.1,0.9])
 
