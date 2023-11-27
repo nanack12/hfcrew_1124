@@ -8,18 +8,6 @@ def set_custom_css():
         css_content = f.read()
 
     st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
-    st.markdown(
-        """
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@700&display=swap"); 
-            div[class^='block-container'] { padding-top: 0px; }
-            .main {
-                padding-top:{padding_top}rem;
-                max-width: 1600px !important;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True)
 
     hide_streamlit_style = """
     <style>
