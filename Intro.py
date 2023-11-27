@@ -48,7 +48,7 @@ def main_header():
     st.title("아이의 아이에 의한 아이를 위한 교통환경 시각화 대시보드")
     st.subheader('"I want safe"')
 
-def col1_component():
+def col1_about():
     st.header("개요")
     project_description = """<h5>
     현대인은 자동차가 많은 현대 사회에서 살아가면서
@@ -74,7 +74,7 @@ def col1_component():
     통학로 등의 교통안전을 위해 정보를 제공하는 것이
     이번 프로젝트의 1차 목표입니다.</h5>''', unsafe_allow_html=True)
 
-def col2_component():
+def col2_about():
     st.header("대시보드를 제작한 이유")
     
     image_path1 = "https://ifh.cc/g/zCYynK.png"
@@ -88,7 +88,7 @@ def col2_component():
     image_path3 = "https://ifh.cc/g/GXP5Nz.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_path3}" style="width:50px; margin-right:5px; margin-bottom:10px;"><h5> 사용자가 원하는 자료만 확인할 수 있는 친사용자 환경을 구성</h5>', unsafe_allow_html=True)
 
-def col3_component():
+def col3_about():
     st.divider()
     imgPath1 = "https://i.ibb.co/RQ9chgx/streamlit-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
@@ -97,7 +97,7 @@ def col3_component():
     imgPath3 = "https://i.ibb.co/hcPGx3Q/Num-Py-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
 
-def col4_component():
+def col4_about():
     st.divider()
     imgPath1 = "https://i.ibb.co/G0CMx3g/python-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
@@ -106,7 +106,7 @@ def col4_component():
     imgPath3 = "https://i.ibb.co/Rcqwp6T/css3-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
 
-def col5_component():
+def col5_about():
     st.divider()
     imgPath1 = "https://i.ibb.co/K5ZfSL0/folium-logo-removebg-preview.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
@@ -126,20 +126,20 @@ col1, empty , col2 = st.columns([1, 0.1,0.9])
 col3 ,col4, col5=st.columns(3)
 
 with col1:
-    col1_component()
+    col1_about()
 
 with empty:
     pass
 
 with col2:
-    col2_component()
+    col2_about()
 
 with col3:
-    col3_component()
+    col3_about()
 
 with col4:
-    col4_component()
+    col4_about()
 
 with col5:
-    col5_component()
+    col5_about()
 st.divider()
