@@ -23,6 +23,7 @@ div[class^='block-container'] { padding-top: 0px; }
     top: 88px;
 }
 [data-testid='stMarkdown']{
+    font-family:'IBM Plex Sans KR', sans-serif;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 30px;
