@@ -90,7 +90,7 @@ def col2_about():
 
 def col3_about():
     st.divider()
-    imgPath1 = "https://i.ibb.co/RQ9chgx/streamlit-logo.png"
+    imgPath1 = "https://i.imgur.com/giJzGgl.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
     imgPath2 = "https://i.ibb.co/0FdxyNz/geopandas-logo-web.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
@@ -108,12 +108,13 @@ def col4_about():
 
 def col5_about():
     st.divider()
-    imgPath1 = "https://i.ibb.co/K5ZfSL0/folium-logo-removebg-preview.png"
+    imgPath1 = "https://i.imgur.com/63k4cx2.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
-    imgPath2 = "https://i.ibb.co/mh70rm9/Imgur-logo.png" 
+    imgPath2 = "https://i.imgur.com/skvYSyh.png" 
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
-    imgPath3 = "https://i.ibb.co/qBds4Lb/json-logo.png" 
+    imgPath3 = "https://i.imgur.com/6lxguoP.png" 
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
+
 
 set_custom_css()
      
