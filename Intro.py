@@ -113,7 +113,7 @@ def col5_about():
     imgPath2 = "https://i.imgur.com/skvYSyh.png" 
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
     imgPath3 = "https://i.imgur.com/6lxguoP.png" 
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 300px; height:80px; margin-right:20px">', unsafe_allow_html=True)
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 80px; height:150px; margin-right:20px">', unsafe_allow_html=True)
 
 
 set_custom_css()
