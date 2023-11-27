@@ -39,7 +39,7 @@ def load_folium_map(selected_page):
                     margin-right:5px;
                     margin-bottom:10px;">
                     </style>
-                    <h5> 강서구 CCTV 설치 현황 -마우스 오버시 설치 위치를 볼 수 있습니다.</h5>
+                    <h5> 강서구 CCTV 설치 현황 -색이 진할수록 cctv가 설치된 밀도가 높습니다.</h5>
                     """
                     , 
                     unsafe_allow_html=True)
