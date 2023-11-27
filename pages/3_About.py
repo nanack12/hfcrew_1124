@@ -41,7 +41,7 @@ def col1_about():
     
 
 def col2_about():
-    st.header("Source / Link")
+    st.header("Source")
     st.divider()
     
     col2_centered_html = """
