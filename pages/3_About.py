@@ -50,6 +50,9 @@ def col2_about():
             <br>
             <p style="font-size: 20px;"><strong><어린이 보호구역 위치></strong></p>
             <p style="font-size: 15px;">2022.05 서울특별시, 어린이 보호구역 위치</p>
+            <br>
+            <p style="font-size: 20px;"><strong><Intro 배경 영상></strong></p>
+            <p style="font-size: 15px;">서울시 Youtube, https://www.youtube.com/watch?v=JJe07EO0GCw </p>
         </div>
     """
     st.markdown(col2_centered_html, unsafe_allow_html=True)
