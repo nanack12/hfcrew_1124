@@ -394,7 +394,7 @@ def dataframe(selected_page):
         df=pd.DataFrame(refined_data)
         st.dataframe(df,width=1200,height=283)
     elif selected_page=="교통량":
-        refined_data = pd.read_csv('./csv/trafficSeoulGangSeo.csv')
+        refined_data = pd.read_csv('./csv/trafficSeoulGangseo.csv')
         df=pd.DataFrame(refined_data)
         st.dataframe(df,width=1200,height=283)   
     elif selected_page =="어린이 사고":
