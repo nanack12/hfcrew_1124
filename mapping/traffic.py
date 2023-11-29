@@ -1,6 +1,4 @@
-#step3, step4, step5, step6, step11 바꾸심 됩니다. 경로 포함해서 바꿔주세요 필요한 파일은 해당 파일 확장자 폴더에 넣으셔서 경로 지정하심됩니다.
-
-#[step2] 필요 라이브러리 임포트
+#[step1] 필요 라이브러리 임포트
 import pandas as pd
 import folium
 import geopandas as gpd
@@ -9,12 +7,11 @@ import numpy as np
 from folium import GeoJson
 
 
-#[step3] map.html 생성 및 저장: location 값은 지도에서 중심이 될 값(강서구청으로 임의 지정) zoom_start는 13
-# 구글 지도 타일 설정
+#[step2] 구글 지도 타일 설정 및 속성 설정
 tiles = "http://mt0.google.com/vt/lyrs=m&hl=ko&x={x}&y={y}&z={z}"
-# 속성 설정
 attr = "Google"
-#[step3] map.html 생성 및 저장: location 값은 지도에서 중심이 될 값(강서구청으로 임의 지정) zoom_start는 13
+
+#[step3] map.html 생성 및 저장: location 값은 지도에서 중심이 될 값 zoom_start는 13
 map_gangseo=folium.Map(location=[37.5612346, 126.8228132],zoom_start=13, tiles = tiles, attr = attr)
 map_gangseo.save("./map.html")
 
@@ -62,7 +59,7 @@ for i in range(len(GS_geoData)):
     
     folium.CircleMarker([lat, long],tooltip= name, radius=circle, color='#fb7100', fill="#ffb96b", fill_opacity=0.6).add_to(map_gangseo)    
 
-#[step11] 완성된 맵 저장.
+#[step10] 완성된 맵 저장.
 map_gangseo.save('./html/traffic_final.html')
 
 
