@@ -445,7 +445,38 @@ def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
         css_content = f.read()
 
     st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
+    st.markdown(''' <style> 
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@700&display=swap"); 
+div[class^='block-container'] { padding-top: 0px; }
 
+[data-testid="stSidebarNav"] {
+    font-family:'IBM Plex Sans KR', sans-serif;
+    font-size: 20px;
+    background-image: url(https://i.imgur.com/SKTE40H.png);
+    background-repeat: no-repeat;
+    background-position: 45px 45px;
+    background-size:auto;
+    padding-top: 185px;
+    margin-top: auto;
+
+}
+[data-testid="stSidebarNav"]::before {
+    content: "Created by ©HFCREW";
+    margin-left: 117px;
+    margin-top: 0px;
+    background-position: 100px 100px;
+    font-size: 10px;
+    position: relative;
+    top: 88px;
+}
+[data-testid='stMarkdown']{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+ </style>''', unsafe_allow_html=True)
 # 사용자 지정 CSS 설정 적용
 set_custom_css()
 
