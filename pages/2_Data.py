@@ -21,8 +21,7 @@ def sidebar():
                     "--hover-color": "#feefc6"
                     },
         "nav-link-selected": {"background-color": "#fccf55",
-                                "color": "#0b1e33"},
-        div[class^='block-container'] { padding-top: 0px; }
+                                "color": "#0b1e33"}
         } )
 
     return selected    
