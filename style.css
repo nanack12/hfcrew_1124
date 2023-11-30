@@ -26,7 +26,7 @@ div[class^='block-container'] { padding-top: 0px; }
     font-family:'IBM Plex Sans KR', sans-serif;
     margin-bottom: 0px;
     padding-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 [data-testid='stMarkdownContainer']{
     font-family:'IBM Plex Sans KR', sans-serif;
