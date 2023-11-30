@@ -41,6 +41,12 @@ div[class^='block-container'] { padding-top: 0px; }
 [data-testid="StyledLinkIconContainer"]{
     font-family:'IBM Plex Sans KR', sans-serif;
 }
+[data-testid="element-container"]{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .main a:first-child {display: none;}
 
 .menu-title[data-v-5af006b8], .menu .nav-item[data-v-5af006b8], .menu .nav-link[data-v-5af006b8], hr[data-v-5af006b8]{
