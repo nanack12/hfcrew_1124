@@ -475,6 +475,12 @@ div[class^='block-container'] { padding-top: 0px; }
                 object-fit: contain;
 }
 
+@media (max-width: 400px) {
+[data-testid='stIFrame']  {
+    height: auto;
+  }
+}
+
 
  </style>''', unsafe_allow_html=True)
 # 사용자 지정 CSS 설정 적용
