@@ -111,9 +111,9 @@ def col5_about():
     imgPath1 = "https://i.ibb.co/Rcqwp6T/css3-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 150px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
     imgPath2 = "https://i.ibb.co/jv1hy3v/vs.png" 
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 150px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 120px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
     imgPath3 = "https://i.imgur.com/6lxguoP.png" 
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 150px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 120px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
 
 
 set_custom_css()
