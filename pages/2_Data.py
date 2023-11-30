@@ -104,7 +104,7 @@ def load_folium_map(selected_page):
     if html_file_path:
         with open(html_file_path, "r", encoding="utf-8") as file:
             folium_html_content = file.read()
-            st.components.v1.html(folium_html_content, height=687, scrolling=True)
+            st.components.v1.html(folium_html_content, scrolling=True)
             
     else:
         st.warning("지도를 선택해주세요.")
