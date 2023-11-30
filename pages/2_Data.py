@@ -475,8 +475,8 @@ div[class^='block-container'] { padding-top: 0px; }
 }
 [data-testid='stIFrame'] {
                 width:100%;
-                height:680px;
-                object-fit: contain;
+                height:100%;
+                object-fit: cover;
 }
 
 
