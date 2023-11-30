@@ -25,7 +25,7 @@ def col1_about():
     st.header("Creator")
     st.divider()
     img_path = "https://i.ibb.co/br83bJr/about.png"
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{img_path}" style="width: 702px; margin-right:20px">', unsafe_allow_html=True)
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{img_path}" style="width: 100%; margin-right:20px">', unsafe_allow_html=True)
     
 
 def col2_about():
