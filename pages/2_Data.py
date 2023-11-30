@@ -445,7 +445,7 @@ def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
         css_content = f.read()
 
     st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
-    st.markdown("<style>div[class^='block-container'] { padding-top: 5px; }</style>",unsafe_allow_html=True)
+    st.markdown("<style>div[class^='block-container'] { padding-top: 0px; }</style>",unsafe_allow_html=True)
 # 사용자 지정 CSS 설정 적용
 set_custom_css()
 
