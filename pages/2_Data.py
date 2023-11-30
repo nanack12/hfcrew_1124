@@ -468,11 +468,7 @@ div[class^='block-container'] { padding-top: 0px; }
     position: relative;
     top: 88px;
 }
-[data-testid='stMarkdown']{
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+
 [data-testid='stIFrame'] {
                 width:100%;
                 height:680px;
