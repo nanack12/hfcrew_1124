@@ -477,7 +477,7 @@ div[class^='block-container'] { padding-top: 0px; }
 
 @media (max-width: 400px) {
 [data-testid='stIFrame']  {
-    height: auto;
+    height: 350px;
   }
 }
 
