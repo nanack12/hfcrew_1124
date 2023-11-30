@@ -109,7 +109,6 @@ def load_folium_map(selected_page):
     else:
         st.warning("지도를 선택해주세요.")
     
-@st.cache
 def plotly(selected_page):
     if selected_page == "cctv":
             st.markdown(
