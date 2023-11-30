@@ -103,13 +103,13 @@ def col4_about():
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
     imgPath2 = "https://i.ibb.co/K7hJ1F4/Plotly-logo.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 300px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
-    imgPath3 = "https://i.ibb.co/Rcqwp6T/css3-logo.png"
+    imgPath3 = "https://i.imgur.com/63k4cx2.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath3}" style="width: 300px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
 
 def col5_about():
     st.divider()
-    imgPath1 = "https://i.imgur.com/63k4cx2.png"
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 300px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
+    imgPath1 = "https://i.ibb.co/Rcqwp6T/css3-logo.png"
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath1}" style="width: 150px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
     imgPath2 = "https://i.ibb.co/jv1hy3v/vs.png" 
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{imgPath2}" style="width: 150px; height:80px; margin-right:20px; margin-bottom:20px;">', unsafe_allow_html=True)
     imgPath3 = "https://i.imgur.com/6lxguoP.png" 
