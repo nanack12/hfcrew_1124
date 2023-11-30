@@ -473,6 +473,10 @@ div[class^='block-container'] { padding-top: 0px; }
     padding-top: 0px;
     padding-bottom: 0px;
 }
+[data-testid='stIFrame'] {
+                width:100%;
+                height:687px;
+}
 
 
  </style>''', unsafe_allow_html=True)
