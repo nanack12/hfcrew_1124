@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@700&display=swap"); 
 
-div[class^='block-container'] { padding-top: 0px; }
+
 
 [data-testid="stSidebarNav"] {
     font-family:'IBM Plex Sans KR', sans-serif;
