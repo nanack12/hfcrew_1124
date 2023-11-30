@@ -104,7 +104,7 @@ def load_folium_map(selected_page):
     if html_file_path:
         with open(html_file_path, "r", encoding="utf-8") as file:
             folium_html_content = file.read()
-            st.components.v1.html(folium_html_content, width=100%, scrolling=True)
+            st.components.v1.html(folium_html_content, height=687, scrolling=True)
             
     else:
         st.warning("지도를 선택해주세요.")
@@ -490,7 +490,7 @@ st.divider()
 col1, col2_and_col3 = st.columns([1.0, 0.8])  
 with col1:  
     load_folium_map(selected_page)
-    
+
     
 with col2_and_col3: 
     plotly(selected_page)
