@@ -27,8 +27,8 @@ def sidebar():
     return selected    
 
 def main_header(): 
-    st.title("강서구 어린이 교통환경 데이터 시각화")
-    st.subheader("3조🦷틀딱코딩단")
+    st.title("강서구 어린이 교통환경 빅데이터")
+    st.subheader("by childrensave.co.kr")
 
 def load_folium_map(selected_page):
     if selected_page == "cctv": 
