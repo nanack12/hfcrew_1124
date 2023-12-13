@@ -51,7 +51,7 @@ def main_header():
 def col1_about():
     st.markdown('''<h5> 해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.</h5>''', unsafe_allow_html=True)
 	
-    image_link1 = "https://imgur.com/tO3wtE3.png"
+    image_link1 = "https://imgur.com/tWRyi4m.png"
     st.markdown('''
     <div style="display: flex; align-items: center;"><img src="{}" style="height: 100px; width:150px; margin-right:5px; margin-bottom:10px;"><h5>좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료, 차트 자료, 데이터 테이블을
     조회할 수 있습니다.</h5>
