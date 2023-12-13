@@ -58,7 +58,7 @@ def col1_about():
     '''.format(image_link1), unsafe_allow_html=True)
     image_link2 = "https://imgur.com/muedAfS.png"
     st.markdown('''
-    <div style="display: flex; align-items: center;"><img src="{}" style="height: 150px; width:150px; margin-right:30px; margin-bottom:10px;"><h5>각 카테고리는 CCTV, 교통량, 어린이 교통사고, 초.중.고 위치, 어린이 보호구역 위치로
+    <div style="display: flex; align-items: center;"><img src="{}" style="height: 200px; width:200px; margin-right:30px; margin-bottom:10px;"><h5>각 카테고리는 CCTV, 교통량, 어린이 교통사고, 초.중.고 위치, 어린이 보호구역 위치로
     나뉘어져 있습니다.</h5>
     '''.format(image_link2), unsafe_allow_html=True)
 	
