@@ -45,24 +45,15 @@ def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
     
 
 def main_header():
-    st.title("강서구 어린이 교통")
+    st.title("강서구 어린이 교통환경 빅데이터")
     st.subheader('by childrensave.co.kr')
 
 def col1_about():
     st.header("페이지 이용 방법")
-    project_description = """<h5>
-    해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.
+    st.markdown(    '''<h5> 해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.
     좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료 , 차트 자료 , 데이터 테이블을
-    조회할 수 있습니다.  </h5>
-    """
-    st.markdown(    '''
-
-                </h5>\n\n''', unsafe_allow_html=True)
-    st.markdown(    '''<h5>            
-    이러한 어린이 교통사고 피해를 막기 위해
-    어린이 당사자보다는 아동의 학부모에게
-    통학로 등의 교통안전을 위해 정보를 제공하는 것이
-    이번 프로젝트의 1차 목표입니다.</h5>''', unsafe_allow_html=True)
+    조회할 수 있습니다.             
+</h5>''', unsafe_allow_html=True)
 
 def col2_about():
     st.header("페이지의 구성 목적")
