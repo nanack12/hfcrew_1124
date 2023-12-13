@@ -57,7 +57,7 @@ def col1_about():
 </h5>''', unsafe_allow_html=True)
 
 def col2_about():
-    st.header("페이지의 구성 목적")
+    st.header("페이지 구성 목적")
     
     image_path1 = "https://ifh.cc/g/zCYynK.png"
     st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_path1}" style="width:50px; margin-right:5px; margin-bottom:10px;"><h5> 누구나 One-click으로 쉽게 접근할 수 있도록 구성</h5>', unsafe_allow_html=True)
