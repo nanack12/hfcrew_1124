@@ -53,7 +53,7 @@ def col1_about():
 	
     image_link1 = "https://imgur.com/tO3wtE3.png"
     st.markdown('''
-    <div style="display: flex; align-items: center;"><img src="{}" style="height: 50px; width:100px; margin-right:5px; margin-bottom:10px;"><h5>좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료, 차트 자료, 데이터 테이블을
+    <div style="display: flex; align-items: center;"><img src="{}" style="height: 100px; width:150px; margin-right:5px; margin-bottom:10px;"><h5>좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료, 차트 자료, 데이터 테이블을
     조회할 수 있습니다.</h5>
     '''.format(image_link1), unsafe_allow_html=True)
     image_link2 = "https://imgur.com/muedAfS.png"
