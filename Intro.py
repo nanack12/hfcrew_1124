@@ -49,7 +49,7 @@ def main_header():
     st.subheader('by childrensave.co.kr')
 
 def col1_about():
-    st.markdown('''<h5> 해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.</h5>''', unsafe_allow_html=True)
+    st.markdown('''<h5> 꼭 필요한 교통 정보를 한 눈에 보는 교통 빅데이터 플랫폼 unsafe_allow_html=True)
 	
     image_link1 = "https://imgur.com/tWRyi4m.png"
     st.markdown('''
