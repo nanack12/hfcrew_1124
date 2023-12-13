@@ -7,7 +7,7 @@ from plotly.subplots import make_subplots
 
 
 def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
-    st.set_page_config(page_title="강서구 교통안전 빅데이터", page_icon="🚌", layout="wide")
+    st.set_page_config(page_title="강서구 교통안전 빅데이터", page_icon="🔍", layout="wide")
 
     with open("./style.css", "r") as f:
         css_content = f.read()
