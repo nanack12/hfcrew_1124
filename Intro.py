@@ -49,7 +49,7 @@ def main_header():
     st.subheader('by childrensave.co.kr')
 
 def col1_about():
-    st.markdown('''<h5> 꼭 필요한 교통정보를 한 눈에 보는 강서구 빅데이터 플랫폼.</h5>''', unsafe_allow_html=True)
+    st.markdown('''<h5> 꼭 필요한 교통정보를 한 눈에 보는 빅데이터 플랫폼.</h5>''', unsafe_allow_html=True)
 	
     image_link1 = "https://imgur.com/tWRyi4m.png"
     st.markdown('''
