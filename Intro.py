@@ -53,11 +53,13 @@ def col1_about():
 	
     image_link1 = "https://imgur.com/tO3wtE3.png"
     st.markdown('''
-    <div style="display: flex; align-items: center;"><img src="{}" style="height: 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5>In the Data tab on the left, you can see map visualization data, chart data, and data tables for each category. You can view it.</h5>
+    <div style="display: flex; align-items: center;"><img src="{}" style="height: 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5>좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료, 차트 자료, 데이터 테이블을
+    조회할 수 있습니다.</h5>
     '''.format(image_link1), unsafe_allow_html=True)
     image_link2 = "https://imgur.com/muedAfS.png"
     st.markdown('''
-    <div style="display: flex; align-items: center;"><img src="{}" style="height: 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5>Each category is divided into CCTV, traffic volume, child traffic accidents, location of elementary, middle, and high schools, and location of child protection zone. It is divided.</h5>
+    <div style="display: flex; align-items: center;"><img src="{}" style="height: 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5>각 카테고리는 CCTV, 교통량, 어린이 교통사고, 초.중.고 위치, 어린이 보호구역 위치로
+    나뉘어져 있습니다.</h5>
     '''.format(image_link2), unsafe_allow_html=True)
 	
 def col2_about():
