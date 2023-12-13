@@ -117,12 +117,5 @@ with empty:
 with col2:
     col2_about()
 
-with col3:
-    col3_about()
 
-with col4:
-    col4_about()
-
-with col5:
-    col5_about()
 st.divider()
