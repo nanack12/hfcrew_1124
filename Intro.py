@@ -50,12 +50,15 @@ def main_header():
 
 def col1_about():
     st.header("페이지 이용 방법")
-    st.markdown(    '''<h5> 해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.
-    좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료 , 차트 자료 , 데이터 테이블을
-    조회할 수 있습니다. 각 카테고리는 CCTV , 교통량 , 어린이 교통사고 , 초.중.고 위치 , 어린이 보호구역 위치로
-    나와있습니다.
-</h5>''', unsafe_allow_html=True)
+    st.markdown('''<h5> 해당 페이지는 어린이 교통환경에 대한 시각화 자료를 나타낸 페이지입니다.</h5>''', unsafe_allow_html=True)
+    image_link1=https://imgur.com/tO3wtE3.png
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_link1}" style=" height : 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5> 좌측의 Data 탭에서 각 카테고리별 지도 시각화 자료, 차트 자료, 데이터 테이블을
+    조회할 수 있습니다.</h5>', unsafe_allow_html=True)
 
+    image_link2=https://imgur.com/muedAfS.png
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_link2}" style=" height : 150px; width:50px; margin-right:5px; margin-bottom:10px;"><h5>      각 카테고리는 CCTV, 교통량, 어린이 교통사고, 초.중.고 위치, 어린이 보호구역 위치로
+    나뉘어져 있습니다.</h5>', unsafe_allow_html=True)
+	
 def col2_about():
     st.header("페이지 구성 목적")
     
