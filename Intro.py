@@ -74,7 +74,7 @@ def col2_about():
 
     
     image_path3 = "https://ifh.cc/g/GXP5Nz.png"
-    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_path3}" style="width:50px; margin-right:5px; margin-bottom:10px;"><h5> 사용자가 원하는 자료만 확인할 수 있는 친사용자 환경을 구성</h5>', unsafe_allow_html=True)
+    st.markdown(f'<div style="display: flex; align-items: center;"><img src="{image_path3}" style="width:50px; margin-right:10px; margin-bottom:10px;"><h5> 사용자가 원하는 자료만 확인할 수 있는 친사용자 환경을 구성</h5>', unsafe_allow_html=True)
 
 def col3_about():
     st.divider()
