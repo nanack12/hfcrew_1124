@@ -7,7 +7,7 @@ from plotly.subplots import make_subplots
 
 
 def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
-    st.set_page_config(page_title="강서구 교통환경 시각화", page_icon="🚌", layout="wide")
+    st.set_page_config(page_title="강서구 교통안전 빅데이터", page_icon="🚌", layout="wide")
 
     with open("./style.css", "r") as f:
         css_content = f.read()
@@ -45,7 +45,7 @@ def set_custom_css(): #사이트 전체 css 적용(건들지 마셈!)
     
 
 def main_header():
-    st.title("아이의 아이에 의한 아이를 위한 교통환경 시각화 대시보드")
+    st.title("강서구 어린이 교통")
     st.subheader('"I want safe"')
 
 def col1_about():
